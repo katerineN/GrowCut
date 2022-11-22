@@ -33,8 +33,9 @@
             this.drawBox = new System.Windows.Forms.PictureBox();
             this.downloadButton = new System.Windows.Forms.Button();
             this.clearButton = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.growCutButton = new System.Windows.Forms.Button();
+            this.backgroundCheck = new System.Windows.Forms.CheckBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.imageBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.drawBox)).BeginInit();
             this.SuspendLayout();
@@ -82,17 +83,9 @@
             this.clearButton.UseVisualStyleBackColor = true;
             this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
             // 
-            // label1
-            // 
-            this.label1.Location = new System.Drawing.Point(14, 126);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(141, 67);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "label1";
-            // 
             // growCutButton
             // 
-            this.growCutButton.Location = new System.Drawing.Point(14, 163);
+            this.growCutButton.Location = new System.Drawing.Point(12, 122);
             this.growCutButton.Name = "growCutButton";
             this.growCutButton.Size = new System.Drawing.Size(164, 50);
             this.growCutButton.TabIndex = 5;
@@ -100,28 +93,46 @@
             this.growCutButton.UseVisualStyleBackColor = true;
             this.growCutButton.Click += new System.EventHandler(this.growCutButton_Click);
             // 
+            // backgroundCheck
+            // 
+            this.backgroundCheck.Location = new System.Drawing.Point(12, 178);
+            this.backgroundCheck.Name = "backgroundCheck";
+            this.backgroundCheck.Size = new System.Drawing.Size(152, 39);
+            this.backgroundCheck.TabIndex = 6;
+            this.backgroundCheck.Text = "Фон";
+            this.backgroundCheck.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(17, 232);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(158, 124);
+            this.label1.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(545, 343);
-            this.Controls.Add(this.growCutButton);
+            this.ClientSize = new System.Drawing.Size(545, 373);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.backgroundCheck);
+            this.Controls.Add(this.growCutButton);
             this.Controls.Add(this.clearButton);
             this.Controls.Add(this.downloadButton);
             this.Controls.Add(this.drawBox);
             this.Controls.Add(this.imageBox);
             this.Name = "Form1";
             this.Text = "GrowCut";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imageBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.drawBox)).EndInit();
             this.ResumeLayout(false);
         }
 
-        private System.Windows.Forms.Button growCutButton;
-
         private System.Windows.Forms.Label label1;
+
+        private System.Windows.Forms.CheckBox backgroundCheck;
+
+        private System.Windows.Forms.Button growCutButton;
 
         private System.Windows.Forms.Button downloadButton;
         private System.Windows.Forms.Button clearButton;
