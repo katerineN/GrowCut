@@ -1,0 +1,11 @@
+C:\Users\катя\RiderProjects\GrowCut\GrowCut\obj\Debug\GrowCut.csproj.AssemblyReference.cache
+C:\Users\катя\RiderProjects\GrowCut\GrowCut\obj\Debug\GrowCut.csproj.SuggestedBindingRedirects.cache
+C:\Users\катя\RiderProjects\GrowCut\GrowCut\obj\Debug\GrowCut.Properties.Resources.resources
+C:\Users\катя\RiderProjects\GrowCut\GrowCut\obj\Debug\GrowCut.csproj.GenerateResource.cache
+C:\Users\катя\RiderProjects\GrowCut\GrowCut\obj\Debug\GrowCut.csproj.CoreCompileInputs.cache
+C:\Users\катя\RiderProjects\GrowCut\GrowCut\bin\Debug\GrowCut.exe.config
+C:\Users\катя\RiderProjects\GrowCut\GrowCut\bin\Debug\GrowCut.exe
+C:\Users\катя\RiderProjects\GrowCut\GrowCut\bin\Debug\GrowCut.pdb
+C:\Users\катя\RiderProjects\GrowCut\GrowCut\obj\Debug\GrowCut.exe
+C:\Users\катя\RiderProjects\GrowCut\GrowCut\obj\Debug\GrowCut.pdb
+C:\Users\катя\RiderProjects\GrowCut\GrowCut\obj\Debug\GrowCut.Form1.resources
